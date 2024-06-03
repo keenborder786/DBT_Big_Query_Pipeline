@@ -1,0 +1,16 @@
+
+version: 2
+
+models:
+  - name: aggregated
+    description: "Aggregated data from seed"
+    columns:
+      - name: stadium
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: capacity
+        description: "Total capacity"
+        tests:
+          - not_null
