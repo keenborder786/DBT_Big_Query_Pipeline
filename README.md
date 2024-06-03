@@ -6,7 +6,6 @@
 - Set up MySQL
 
 ```bash
-
 docker-compose up -d
 ```
 
@@ -14,12 +13,11 @@ docker-compose up -d
 - Run DBT
 
 ```bash
-
-dbt seed
-
+cd mysql_dbt
 ```
-
 ```bash
-
+dbt seed
+```
+```bash
 dbt run
 ```
