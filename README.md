@@ -9,6 +9,16 @@
 docker-compose up -d
 ```
 
+- Install DBT
+
+
+```bash
+pip install dbt-core
+```
+
+```bash
+pip install dbt-mysql
+```
 
 - Run DBT
 
